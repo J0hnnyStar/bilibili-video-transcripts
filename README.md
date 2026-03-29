@@ -54,7 +54,7 @@ SESSDATA=your_bilibili_sessdata_cookie_here
 ## Usage / 使用方法
 
 ```bash
-python fetch_transcript.py "https://www.bilibili.com/video/BV1DsXuBrESX/"
+python fetch_transcript.py "https://www.bilibili.com/video/BVxxxxxxxxxx/"
 ```
 
 Transcripts are saved to the `transcripts/` folder, auto-created on first run.
@@ -75,10 +75,10 @@ Transcripts are saved to the `transcripts/` folder, auto-created on first run.
 
 ```bash
 # SRT format / SRT 格式
-python fetch_transcript.py "https://www.bilibili.com/video/BV1DsXuBrESX/" --format srt
+python fetch_transcript.py "https://www.bilibili.com/video/BVxxxxxxxxxx/" --format srt
 
 # Better accuracy with larger Whisper model / 使用更大的 Whisper 模型提高准确度
-python fetch_transcript.py "https://www.bilibili.com/video/BV1EHAPzvEPB/" --whisper-model medium
+python fetch_transcript.py "https://www.bilibili.com/video/BVxxxxxxxxxx/" --whisper-model medium
 ```
 
 ## Project Structure / 项目结构

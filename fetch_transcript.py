@@ -7,7 +7,7 @@ Usage:
 Reads SESSDATA from .env file in the same directory as this script.
 
 Example:
-    python fetch_transcript.py "https://www.bilibili.com/video/BV1DsXuBrESX/"
+    python fetch_transcript.py "https://www.bilibili.com/video/BVxxxxxxxxxx/"
 """
 
 import argparse
